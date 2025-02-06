@@ -12,6 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 8px;
 }
 
 .profile-image {
@@ -27,6 +32,26 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
 }
 
 button {
